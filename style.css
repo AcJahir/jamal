@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+.loginbox{
+    width: 400px;
+    height: 440px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px, 30px ;
+    background-color: rgba(15, 110, 253, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blue(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+
+}
+ .avater{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top: -60px;
+    left: 38%;
+}
+h1{
+    margin: 30px;
+    margin-top: 33px;
+    padding: 0 0 15px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #e5ff00;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    font-family: 'Times New Roman';
+    background: rgba(39, 15, 250, 0.5) ;
+    transform: 50%;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#Username, #password{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#submit{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    height: 25px;
+    background: rgb(0, 255, 13);
+    color: #ff7200;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+#submit:hover{
+    background-color: #1f34f3;
+    color: #000000;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0px;
+    color: #fff;
+}
+.loginbox a:hover{
+    cursor: pointer;
+    color: #eeff00;
+}
+.jamal{
+    padding: 30px ;
+}
